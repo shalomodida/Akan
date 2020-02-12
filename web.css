@@ -11,14 +11,14 @@ body{
       display:inline-block;
       text-align: left;
   }
-  h2{
+  h1{
       font-weight: bold;
       font-size: 45px;
   }
   label{
       font-size: 35px;
   }
-  h3{
+  h2{
       font-size: 35px;
 
   }
