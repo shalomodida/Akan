@@ -1,13 +1,15 @@
 body{
     text-align: center;
-     background-image:url("/home/shalom/Desktop/web/web.imgs/kazuend-p4orVxNl5Ko-unsplash.jpg");
+     background-image:url("/home/shalom/Desktop/web/web.imgs/sidney-pearce-yPMJliKzyc4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color:rgb(102, 6, 81);
+    color:orangered;
   }
   p{
       font-size: 30px;
-      color:rgb(7, 1, 1);
+      color:whitesmoke;
+      display:inline-block;
+      text-align: left;
   }
   h2{
       font-weight: bold;
@@ -18,7 +20,53 @@ body{
   }
   h3{
       font-size: 35px;
+
   }
+
+.nav{
+    width: 350px;
+    height: auto;
+     /* position: absolute;   */
+    top: 10px; 
+}
+.nav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: verdana;
+    font-weight: bold;
+    height: 50px;
+    margin: 5px;
+    display: block;
+    float: left;
+    background-color: black;
+    color: white;
+    line-height: 50px; 
+    text-align: center;
+    transition: 300ms;
+    padding: 10px;
+}
+a.active{
+    background-color: whitesmoke;
+    color: black;
+}
+a.active, .nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 80%;
+}
+.d{
+    width:75% ;
+  
+
 
 
 
